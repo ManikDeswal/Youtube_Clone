@@ -14,7 +14,7 @@ import jakarta.validation.constraints.Size;
 
 @Entity
 @Table(name="videos")
-public class video {
+public class Video {
 
     @Id
     @GeneratedValue(generator = "uuid2")

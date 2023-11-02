@@ -13,7 +13,7 @@ import jakarta.validation.constraints.NotNull;
 
 @Entity
 @Table(name = "views")
-public class view {
+public class View {
 
     @Id
     @GeneratedValue(generator = "uuid2")

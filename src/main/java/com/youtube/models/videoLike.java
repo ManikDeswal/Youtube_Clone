@@ -12,7 +12,7 @@ import jakarta.validation.constraints.NotNull;
 
 @Entity
 @Table(name ="VideoLikes")
-public class videoLike {
+public class VideoLike {
     @Id
     @GeneratedValue(generator = "uuid2")
     @GenericGenerator(name = "uuid2", strategy = "uuid2")

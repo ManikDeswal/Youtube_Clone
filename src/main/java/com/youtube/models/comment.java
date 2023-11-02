@@ -13,7 +13,7 @@ import jakarta.validation.constraints.NotNull;
 
 @Entity
 @Table(name="Comments")
-public class comment {
+public class Comment {
     
     @Id
     @GeneratedValue(generator = "uuid2")
