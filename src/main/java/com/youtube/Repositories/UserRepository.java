@@ -11,4 +11,6 @@ import org.springframework.stereotype.Repository;
 public interface UserRepository extends JpaRepository<User,UUID>{
     @Query("DELETE FROM User u WHERE u.username = :username")
     void deleteByUsername(@Param("username") String username);
+
+    User findByUsername(String username);
 } 
